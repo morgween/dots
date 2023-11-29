@@ -22,7 +22,7 @@ As main theme I use [Catppuccin Theme](https://marketplace.visualstudio.com/item
 I use Sketchybar instead regular menu bar, make sure to run `chmod +x *` in the plugins directory to make the plugins work. You can see it in the vscode screenshot.
 
 ## Spotify 
-For spotify I use [Spicetify application](https://spicetify.app/) for customizing spotify.
+For spotify I use [Spicetify application](https://spicetify.app/) for customizing spotify.<br>
 ![](assets/spotify.png?raw=true)
 
 ## Alfred
