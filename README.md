@@ -23,7 +23,7 @@ I use Sketchybar instead regular menu bar, make sure to run `chmod +x *` in the 
 
 ## Spotify 
 For spotify I use [Spicetify application](https://spicetify.app/) for customizing spotify.
-
+![](assets/spotify.png?raw=true)
 
 ## Alfred
 Intead spotlight I use [Alfred](https://www.alfredapp.com/). More powerful and customizable spotlight replacement.
