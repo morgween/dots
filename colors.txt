@@ -1,0 +1,1 @@
+Extension Firefox Color used to match colors of browser

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>__oauth_client_id</key>
+	<string>d998240552e14654bcddfbebad92af37</string>
+	<key>__oauth_client_secret</key>
+	<string>b2c3f0a38a3e4aef82fcb74042457401</string>
+	<key>automatically_open_spotify_app</key>
+	<true/>
+</dict>
+</plist>

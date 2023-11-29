@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>de.leenno.terminalfinder</string>
+	<key>connections</key>
+	<dict>
+		<key>9F9DC1C6-5DE4-49F7-9BAA-14E4CA01C956</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C5615B51-DAE5-4A23-8376-67AA21C3ECC3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AA3CDA14-C3B5-442B-B117-D61A244C6625</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3FAD134F-0E3B-453B-A693-83B54A719141</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>LeEnno</string>
+	<key>description</key>
+	<string>Open currently selected Finder (or Path Finder) window in Terminal (or iTerm2) and vice versa</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>TerminalFinder</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>fi</string>
+				<key>subtext</key>
+				<string>Open current Finder directory in iTerm</string>
+				<key>text</key>
+				<string>Finder → iTerm</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>AA3CDA14-C3B5-442B-B117-D61A244C6625</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>tell application "Finder"
+	set pathList to (quoted form of POSIX path of (folder of the front window as alias))
+end tell
+
+do shell script "open -a iTerm.app " &amp; pathList</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3FAD134F-0E3B-453B-A693-83B54A719141</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  tell application "iTerm"
+    tell the current session of current window
+      write text "open -a Finder ./"
+    end tell
+  end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>C5615B51-DAE5-4A23-8376-67AA21C3ECC3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>if</string>
+				<key>subtext</key>
+				<string>Open current iTerm directory in Finder</string>
+				<key>text</key>
+				<string>iTerm → Finder</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9F9DC1C6-5DE4-49F7-9BAA-14E4CA01C956</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># alfred-terminalfinder
+
+Alfred workflow to open current Finder window in Terminal/iTerm and vice versa.
+
+## Usage
+
+Install workflow and enter following keywords depending on what you want to achieve:
+
+- `ft`: open current **Finder** directory in **Terminal**
+- `tf`: open current **Terminal** directory in **Finder**
+- `fi`: open current **Finder** directory in **iTerm**
+- `if`: open current **iTerm** directory in **Finder**
+
+Thanks to @olibob we also have [Path Finder](http://www.cocoatech.com/ "Path Finder 6 by Cocoatech") support:
+
+- `pt`: open current **Path Finder** directory in **Terminal**
+- `tp`: open current **Terminal** directory in **Path Finder**
+- `pi`: open current **Path Finder** directory in **iTerm**
+- `ip`: open current **iTerm** directory in **Path Finder**
+
+In addition the search result in Alfred will show you what the action will do in its subtitle, i.e. `ft`:
+
+![Finder → Terminal](https://raw.github.com/LeEnno/alfred-terminalfinder/master/screenshot_ft.png)
+
+## iTerm Compatibility
+
+This workflow works with iTerm 3.x and 2.9.x. If you need support for 2.1.x, [see the `2.1.x` branch](https://github.com/LeEnno/alfred-terminalfinder/tree/2.1.x "LeEnno/alfred-terminalfinder at 2.1.x").
+
+## Hat tip
+
+This workflow was heavily inspired by [ssgreg's *Terminal in Finder's folder*](https://github.com/ssgreg/AlfredWorkflows/ "ssgreg/AlfredWorkflows · GitHub").</string>
+	<key>uidata</key>
+	<dict>
+		<key>3FAD134F-0E3B-453B-A693-83B54A719141</key>
+		<dict>
+			<key>xpos</key>
+			<real>500</real>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>9F9DC1C6-5DE4-49F7-9BAA-14E4CA01C956</key>
+		<dict>
+			<key>xpos</key>
+			<real>300</real>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>AA3CDA14-C3B5-442B-B117-D61A244C6625</key>
+		<dict>
+			<key>xpos</key>
+			<real>300</real>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>C5615B51-DAE5-4A23-8376-67AA21C3ECC3</key>
+		<dict>
+			<key>xpos</key>
+			<real>500</real>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.1.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/LeEnno/alfred-terminalfinder</string>
+</dict>
+</plist>
