@@ -1,0 +1,62 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/en/configs/bookmarks
+
+- Developer:
+    - TinyWow:
+        - abbr: wow
+          href: https://tinywow.com/
+          icon: https://play-lh.googleusercontent.com/H2FqtPu6JpHNhRIOjCl0MDuyGGpF5fQrCLCETF0BgEAQ4bg7qJzduUv9NF_E_bMPt0az=w240-h480-rw
+    - Stack Overflow:
+        - abbr: SO
+          icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/1200px-Stack_Overflow_icon.svg.png
+          href: https://stackoverflow.com/
+    - ZeroToMastery:
+        - abbr: ZTM
+          href: https://zerotomastery.io/
+          icon: https://pbs.twimg.com/profile_images/1235348786387574784/EHFYcgX6_400x400.png
+    - Colab:
+        - abbr: GC
+          href: https://colab.research.google.com/
+          icon: https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg
+- Social:
+    - Reddit:
+        - abbr: RE
+          href: https://reddit.com/
+          icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLN7QpSZ7fpdCL3sEaKCPUN_vvEYAoDFVusu7IjV9qJA&s
+    - Instagram:
+        - abbr: IG
+          href: https://www.instagram.com/
+          icon: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png
+    - Linkedin:
+        - abbr: LD
+          href: https://www.linkedin.com/feed/
+          icon: https://brandlogos.net/wp-content/uploads/2016/06/linkedin-logo.png
+- Entertainment:
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
+          icon: https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png
+    - Chess:
+        - abbr: Ch
+          href: https://chess.com
+          icon: https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png
+    - Lichess:
+        - abbr: Lich
+          href: https://lichess.org/
+          icon: https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Lichess_Logo.svg/1200px-Lichess_Logo.svg.png
+
+- Math:
+    - Symbolab:
+        - abbr: SL
+          href: https://he.symbolab.com/
+          icon: https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA
+
+    - Desmos:
+        - abbr: Des
+          href:  https://www.desmos.com/calculator
+          icon: https://help.desmos.com/hc/article_attachments/4413863846413/desmos_icon_square.png
+    - WolframAlpha:
+        - abbr: WA
+          href: https://www.wolframalpha.com/
+          icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/WolframCorporateLogo.svg/800px-WolframCorporateLogo.svg.png

@@ -1,0 +1,261 @@
+{
+  
+  "editor.guides.bracketPairs": "active",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "C_Cpp.autocompleteAddParentheses": true,
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+  "git.suggestSmartCommit": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": false,
+    "python": true,
+    "cpp": true,
+    "java": true,
+    "c": true
+  },
+  "[cpp]": {
+    "editor.wordBasedSuggestions": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "workbench.startupEditor": "none",
+  "gitlens.views.commitDetails.files.layout": "list",
+  "notebook.editorOptionsCustomizations": {},
+  "notebook.lineNumbers": "on",
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "interactiveWindow.collapseCellInputCode": "always",
+  "github.copilot-labs.showBrushesLenses": true,
+  "github.copilot-labs.showTestGenerationLenses": true,
+  "redhat.telemetry.enabled": true,
+  "cmake.configureOnOpen": true,
+  "workbench.iconTheme": "catppuccin-frappe",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "cmake.additionalCompilerSearchDirs": [
+    "usr/bin/g++"
+  ],
+  "cmake.buildArgs": [
+    "std=c++11"
+  ],
+  "cmake.cmakePath": "/opt/homebrew/bin/cmake",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.fontSize": 13.5,
+  "workbench.colorTheme": "Alt Catppuccin Frappé",
+  "git.autofetch": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment.block",
+        "settings": {
+          "foreground": "#7ec5d7"
+        }
+      },
+      {
+        "scope": "comment.line",
+        "settings": {
+          "foreground": "#7ec5d7"
+        }
+      }
+    ],
+    "comments": "#7ec5d7",
+  },
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.enabled": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "window.commandCenter": false,
+  "apc.electron": {
+    //"titleBarStyle": "hidden",
+    "frame": false
+  },
+  "apc.statusBar": {
+    "height": 20,
+    "fontSize": 12,
+    "position": "editor-bottom"
+  },
+  "apc.imports": [
+    "/Users/work/.config/vscode/custom.css",
+  ],
+  "workbench.editor.untitled.labelFormat": "name",
+  "window.titleBarStyle": "native",
+  "apc.font.family": "MesloLGS NF",
+  "editor.codeLensFontFamily": "MesloLGS NF",
+  "debug.console.fontFamily": "MesloLGS NF",
+  "scm.inputFontFamily": "MesloLGS NF",
+  "apc.monospace.font.family": "MesloLGS NF",
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.minimumContrastRatio": 1,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.tabCompletion": "on",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.cursorBlinking": "smooth",
+  "code-runner.executorMap": {
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "groovy": "groovy",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "javascript": "node",
+    "shellscript": "bash",
+    "vbscript": "cscript //Nologo",
+    "scala": "scala",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "swift": "swift",
+    "clojure": "lein exec",
+    "racket": "racket",
+    "ahk": "autohotkey",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "dart": "dart",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "coffeescript": "coffee",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "perl": "perl",
+    "lisp": "sbcl --script",
+    "csharp": "scriptcs",
+    "ocaml": "ocaml",
+    "fsharp": "fsi",
+    "applescript": "osascript",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "go": "go run",
+    "bat": "cmd /c",
+    "python": "python3 -u",
+    "crystal": "crystal",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "r": "Rscript",
+    "scheme": "csi -script",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runhaskell",
+    "v": "v run",
+    "lua": "lua",
+    "php": "php",
+    "julia": "julia",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "autoit": "autoit3",
+    "kit": "kitc --run",
+    "typescript": "ts-node"
+  },
+  "explorer.confirmDelete": false,
+  "terminal.integrated.tabs.showActiveTerminal": "always",
+  "terminal.integrated.cursorStyle": "line",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "helium-icon-theme.folders.color": "#92b3f5",
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground2": "#B3E1A7",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#E48FA8",
+    "editorBracketHighlight.foreground1": "#EFB68E",
+    "editorBracketHighlight.foreground4": "#C5A7F2",
+    "editorBracketHighlight.foreground3": "#F5E3B5"
+  },
+  "workbench.fontAliasing": "antialiased",
+  "terminal.integrated.cursorBlinking": true,
+  "window.dialogStyle": "custom",
+  "terminal.external.osxExec": "iTerm2.app",
+  "editor.accessibilitySupport": "off",
+  "editor.linkedEditing": true,
+  "editor.smoothScrolling": true,
+  "explorer.openEditors.sortOrder": "alphabetical",
+  "editor.fontWeight": "normal",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.list.smoothScrolling": true,
+  "editor.inlayHints.fontFamily": "Firacode Nerd Font",
+  "explorer.openEditors.visible": 40,
+  "settingsSync.ignoredSettings": [
+    "terminal.integrated.fontFamily",
+    "editor.fontFamily",
+    "debug.console.fontFamily"
+  ],
+  "editor.cursorSmoothCaretAnimation": "on",
+  "indentRainbow.colors": [
+    "#f5c2e722",
+    "#cba6f722",
+    "#f38ba822",
+    "#fab38722",
+    "#f9e2af22",
+    "#a6e3a122",
+    "#94e2d522",
+    "#89dceb22",
+    "#74c7ec22",
+    "#89b4fa22"
+  ],
+  // The indent color if the number of spaces is not a multiple of "tabSize".
+  // The indent color when there is a mix between spaces and tabs.
+  // To be disabled this coloring set this to an empty string.
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.renderCharacters": false,
+  "catppuccin.accentColor": "blue",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "git.enableSmartCommit": true,
+  "update.mode": "default",
+  "git.confirmSync": false,
+  "editor.tabSize": 2,
+  "applescript.alwaysOpenBuildTask": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.minimap.enabled": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwind-fold.unfoldIfLineSelected": true,
+  "git-graph.date.format": "Relative",
+  "git-graph.graph.colours": [
+    "#f2cdcd",
+    "#f5c2e7",
+    "#cba6f7",
+    "#f38ba8",
+    "#fab387",
+    "#f9e2af",
+    "#a6e3a1",
+    "#94e2d5",
+    "#89dceb",
+    "#74c7ec",
+    "#89b4fa",
+    "#b4befe"
+  ],
+  "terminal.integrated.inheritEnv": false,
+  "jupyter.themeMatplotlibPlots": true,
+  "notebook.cellFocusIndicator": "border",
+  //Adjust padding from the top for editor in notebook using css:
+  "apc.iframe.style": "/Users/work/Documents/study/MLcourse/tmp.css",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.fontFamily": "MesloLGS NF",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.scrollbar.horizontal": "visible",
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.scrollbar.horizontalScrollbarSize": 20
+}

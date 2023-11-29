@@ -1,0 +1,33 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/en/configs/widgets
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: google
+    target: _blank
+
+- datetime:
+      text_size: xl
+      locale: israel
+      format:
+        dateStyle: short
+        timeStyle: short
+        hourCycle: h23
+
+- openmeteo:
+    label: 🇮🇱Kiryat Shmona # optional
+    latitude: 33.2079
+    longitude: 35.5702
+    timezone: Israel # optional
+    units: metric # or imperial
+    cache: 5 # Time in minutes to cache API responses, to stay within limits
+    
+- logo: 
+    icon: https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png
+
+

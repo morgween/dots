@@ -1,0 +1,218 @@
+:root {
+  --font-size: 12px;
+  --font-family: "JetBrainsMono NF";
+}
+
+.monaco-workbench .part>.content,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label a,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .title-label a,
+.monaco-breadcrumbs,
+.monaco-workbench .part.statusbar {
+  font-size: var(--font-size) !important;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box !important;
+}
+
+.pane-body .monaco-icon-label {
+  margin-left: 8px;
+}
+
+.monaco-action-bar a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 3px !important;
+}
+
+.monaco-tl-indent {
+  transform: translateX(-5px) !important;
+}
+
+.monaco-workbench {
+  --vscode-icon-foreground: #cdd6f4 !important;
+}
+
+.windows {
+  font-family: var(--font-family) !important;
+}
+
+.monaco-workbench .part>.content,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label a,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .title-label a,
+.monaco-breadcrumbs,
+.monaco-workbench .part.statusbar {
+  font-size: var(--font-size) !important;
+}
+
+.window-appicon {
+  display: none;
+}
+
+.monaco-workbench .part.titlebar .window-controls-container>.window-icon:hover {
+  background-color: transparent !important;
+}
+
+span.codicon.codicon-error {
+  color: #f38ba8 !important;
+}
+
+span.codicon.codicon-warning {
+  color: #f9e2af !important;
+}
+
+span.codicon.codicon-git-branch {
+  color: #a6e3a1 !important;
+}
+
+span.codicon.codicon-info {
+  color: #94e2d5 !important;
+}
+
+.codicon-close:before {
+  color: #f38ba8 !important;
+}
+
+span.codicon.codicon-remote {
+  color: #181825 !important;
+}
+
+span.codicon.codicon-search.search-icon {
+  color: #89b4fa !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before {
+  color: #cdd6f4 !important;
+}
+
+div#status\.host {
+  background-color: transparent !important;
+  border-radius: 0px 100px 100px 0px !important;
+}
+
+div#status\.host * {
+  color: #89b4fa !important;
+  transform: translateY(0.5px) !important;
+}
+
+.monaco-editor .scroll-decoration,
+.monaco-editor .minimap-shadow-visible {
+  box-shadow: none !important;
+}
+
+footer#workbench\.parts\.statusbar {
+  --status-border-top-color: none !important;
+  border-top: 1px solid #313244 !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.tabs-and-actions-container {
+  background-color: #181926 !important;
+  padding-block: 0px;
+  padding-left: 1.5px;
+}
+
+.monaco-workbench .part.editor>.content:not(.dragged-over) .editor-group-container.active>.title .tabs-container>.tab.sizing-shrink:not(.dragged):not(.sticky-compact)>.tab-label>.monaco-icon-label-container::after,
+.monaco-workbench .part.editor>.content:not(.dragged-over) .editor-group-container.active>.title .tabs-container>.tab.sizing-fixed:not(.dragged):not(.sticky-compact)>.tab-label>.monaco-icon-label-container::after {
+  background: none !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-bottom>.tab-border-bottom-container {
+  display: none !important;
+}
+
+.command-center {
+  margin-top: 1px !important;
+  border-radius: 8px !important;
+}
+
+.tab {
+  margin-inline: 2px !important;
+  padding-left: 5px !important;
+}
+
+.tab * {
+  font-family: "JetBrainsMono NF" !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.tabs-and-actions-container>*>* {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.tab[aria-selected="false"] {
+  box-shadow: inset 0 0 0 1px #313244 !important;
+  border-radius: 8px !important;
+}
+
+.tab[aria-selected="true"] {
+  box-shadow: inset 0 0 0 1px #89b4fa, 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 8px !important;
+}
+
+.monaco-icon-label-container {
+  padding-inline: 6px !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-shrink>.tab-label>.monaco-icon-label-container:after {
+  content: none !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-shrink {
+  min-width: 0px !important;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center .search-icon {
+  opacity: 1 !important;
+  font-size: 16px !important;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center .search-label {
+  padding: 1px !important;
+}
+
+.menubar.compact .toolbar-toggle-more:before,
+.menubar:not(.compact) .menubar-menu-button:first-child .toolbar-toggle-more:before {
+  color: #89b4fa !important;
+}
+
+#workbench\.parts\.editor>div.content>div>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.breadcrumbs-below-tabs {
+  border: 1.2px solid #313244 !important;
+}
+
+#workbench\.parts\.editor>div.content>div>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.breadcrumbs-below-tabs * {
+  font-family: "JetBrainsMono NF" !important;
+}
+
+.monaco-dialog-box {
+  border-radius: 8px !important;
+  border: 1px solid !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.tabs-and-actions-container>* {
+  padding-block: 4px;
+  top: 0px !important;
+}
+
+.editor-actions {
+  margin-top: 4px;
+  box-shadow: inset 0 0 0 1px #313244, 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  padding: 0px !important;
+  padding-inline: 8px !important;
+}
+
+.statusbar-item-label {
+  padding: 0px !important;
+  margin-inline: 5px !important;
+}
+
+.first-visible-item {
+  margin-left: 5px !important
+}
+
+.last-visible-item {
+  margin-right: 0px !important
+}

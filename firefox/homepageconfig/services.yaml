@@ -1,0 +1,57 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/en/configs/services
+
+- AI:
+    - ChatGPT:
+        href: https://chat.openai.com/
+        description: OpenGPT 
+        icon: https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/chatgpt-icon.png
+    - Bing AI (PHOTO):
+        href: https://www.bing.com/images/create
+        description: Bing image generator
+        icon: https://play-lh.googleusercontent.com/17zMqR9Gx7pQxZh9Q1Zr_VGl7Ja5CnO4C70Ry0gJRXzXVcE6H4FwCZShVPRnF76w-g
+    - Bard:
+        href: https://bard.google.com/
+        description: Google chat bot
+        icon: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Google_Bard_logo.svg/1200px-Google_Bard_logo.svg.png
+- Migal AWS integration:
+    - AWS:
+        href: https://eu-north-1.signin.aws.amazon.com/oauth?client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&code_challenge=OCsNkwwvXw1IxbGlkrnm9euyHQQDb6Zc2gNGKU3Gf4o&code_challenge_method=SHA-256&response_type=code&redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26src%3Dheader-signin%26state%3DhashArgsFromTB_eu-north-1_c18c4cd15bc7f7d8&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiAoKphMMz8Verquewb01Im3YIWYMNiv%2Bo4GhZr%2BtcGTfQIgSRWEMyS6WfCBx7Mqjf89ScdWpvvcjmYSX7kCSkTMWzMqkwIIxf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgw4MDI3NzAwNjQ0NzMiDBp2pK33%2B%2FgUQ4IdVirnAWZ7Mm6SSYgo9NnP%2BSmIG0r1qDPeJLv1pa32RGkWau3lLhwLB7fHFOxX63sUoDQ%2B2HProtq2F0jP3GGA%2B6xCgW3wxLibJrxrbi2ApFzSN7vexmTCblELkf5%2BJ63w6oq8PArgjLSxNpX1ww%2By%2BKFHXmqy6GindbncZJpc5VLESeyBXzm03wf5EqRv0DpKTHzrDP%2B%2FamEHrLEz6GDiIMbwtQZGNotKnTxQ3cuI4QuGhSIm4Vy37UJqQWUJ%2BrWQ0mdSPg3tWFYZgBeqp6Gk7XMQr0%2F6jdm7cZHTXT8eH8BwYb5xsOSjlUaO0TDe29yoBjqQAUqYGcgSoqI760pdL1WrOsnikoZA5Gjr%2FbmZ5zy4CeyL8uD0p%2FRNyQXXF2Wc8f1hF9zVcZ1HeLSnIseWs5utazOCNhh%2FEq2bbwuy4fhRiQFcycrz8kku470PnvgkA%2FAAFDpN%2BoKCkAHjMBmrFcga56OUwGVx%2B8jtLsX1sOXi2Xl%2BBCm0fiU2%2BEmUx9pOxHN9mQ%3D%3D&X-Amz-Date=20230929T205054Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA3V2GTCRM3GCROMRU%2F20230929%2Feu-north-1%2Fsignin%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=7382fe7f4da400c3944015b8cbd656d17c7d09b016f0230a1904ce94fd809633
+        icon: https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_icon.svg
+        description: Console sign-in
+    - Nextflow:
+        href: https://www.nextflow.io/docs/latest/index.html
+        description: Nextflow documentation 
+        icon: https://www.nextflow.io/img/nextflow2014_no-bg.png
+    - Star: 
+        href: https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf
+        description: Star documentation
+        icon: https://static.vecteezy.com/system/resources/previews/022/133/469/original/star-shape-star-icon-yellow-star-in-rating-symbol-free-png.png
+
+- Work:
+    - Github:
+        href: https://github.com/morgween
+        description: My github Profile
+        icon: https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png
+    - Fiverr:
+        href: https://www.fiverr.com/users/maxim_illian/seller_dashboard
+        description: My fiverr profile 
+        icon: https://cdn.icon-icons.com/icons2/2699/PNG/512/fiverr_logo_icon_169172.png
+    - GMail:
+        href: https://mail.google.com/mail/u/0/#inbox
+        description: Gmail
+        icon: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png
+- Study:
+    - Portal:
+        href: https://portal.telhai.ac.il/
+        description: Tel Hai portal
+        icon: https://www.israeltoremet.org/Pictures/AmutaPictures/21391_Large_logo.jpg
+    - Udemy:
+        href: https://www.udemy.com/
+        description: Udemy
+        icon: https://pageflows.com/media/logos/udemy.png
+    - AWS Skillbuilder:
+        href: https://explore.skillbuilder.aws/pages/16/learner-dashboard
+        description: AWS 
+        icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/1024px-AWS_Simple_Icons_AWS_Cloud.svg.png
