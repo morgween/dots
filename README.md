@@ -10,7 +10,7 @@ For fonts I mainly use `FiraCode Nerd Font`, `Inter`, 'MesloLGS NF' and `JetBrai
 ## Terminal
 I use [Iterm2](https://iterm2.com/) with [Catppuccin theme](https://github.com/catppuccin/iterm) and `Hack nerd font`
 The terminal prompt I use [powerlevel10k](https://github.com/romkatv/powerlevel10k) and [oh-my-zsh](https://ohmyz.sh/) with following plugins: `zsh-autosuggestions`,`zsh-history-substring-search`,`zsh-syntax-highlighting` 
-I use nvChad nvim as my editor for biggest part of my work
+I use [NvChad](https://github.com/NvChad/NvChad) nvim as my editor for biggest part of my work
 I also use [bat](https://github.com/sharkdp/bat) instead cat , [btop](https://github.com/aristocratos/btop) instead top, and [eza](https://github.com/eza-community/eza) instead ls for terminal.
 <br/><br/>
 ![](assets/iterm.png?raw=true)
